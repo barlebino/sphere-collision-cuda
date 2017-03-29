@@ -330,8 +330,8 @@ void printPosition() {
 void loop() {
   printf("--- TICK ---\n");
   updatePosition();
-  // updateVelocity();
-  updateVelocitySerial();
+  updateVelocity();
+  // updateVelocitySerial();
   // printPosition();
   // sleep(1);
 }
